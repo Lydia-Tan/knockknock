@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre");
-@import url("https://fonts.googleapis.com/css?family=Rubik:300, 700");
 body {
-  font-family: 'Itim', cursive;
+  font-family: 'Nanum Pen Script', cursive;
   background: linear-gradient(#ffe9c6 50%, #fccec9 100%);
   color: $light;
   background-attachment: fixed;
@@ -100,6 +98,7 @@ a:hover
 } */
 
 .lt-centre {
+  font-family: 'Itim', cursive;
   text-align: center;
   color: #ad6666;
 }
@@ -108,7 +107,7 @@ a:hover
   display: block;
   height: 54px;
   /* width: 75%; */
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 400;
   border-radius: 10px;
 }
