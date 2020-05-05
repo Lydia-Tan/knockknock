@@ -114,7 +114,7 @@ a:hover
 
 .message.from {
   color: white;
-  background-color: #827DCF;
+  background-color: #ff5e5e;
   width: 150px;
   margin-left: 20px;
   margin-top: 10px;
@@ -132,7 +132,7 @@ a:hover
 
 .message.from2 {
   color: white;
-  background-color: #827DCF;
+  background-color: #ff5e5e;
   width: 150px;
   margin-left: 20px;
   margin-top: 75px;
@@ -142,7 +142,7 @@ a:hover
 
 .message.final {
   color: white;
-  background-color: #827DCF;
+  background-color: #ff5e5e;
   width: 225px;
   margin-left: 20px;
   margin-top: 90px;
@@ -169,7 +169,7 @@ a:hover
 /*
 .message.from:after {
   border-top: 17px solid transparent;
-  border-right: 16px solid #827DCF;
+  border-right: 16px solid #ff5e5e;
   border-top-left-radius: 20px;
   margin-left: -14px;
 }
@@ -226,7 +226,7 @@ a:hover
   font-size: 25px;
   margin-top: 10px;
   margin-right: 27px;
-  color: #827DCF;
+  color: #ff5e5e;
   font-weight: 400;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
