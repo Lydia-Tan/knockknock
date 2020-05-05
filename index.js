@@ -1,18 +1,32 @@
-var positive = [
-  "bad days don't last forever",
-"you can't make everyone happy. and that's okay. most importantly, make yourself happy",
-  "you are an important part of this world and you matter",
-"be who you needed when you were younger",
-"'you can. even if you don't believe it. even though it doesn't feel like it right now. even in the toughest of times. you can'"
+
+var owl = [
+  "Olive",
+  "Beets",
+  "Adore",
+"Dozen",
+"Abby"
 ];
 
-var getInspired = document.querySelector('.remindersBtn');
-var inspo = document.querySelector('.inspo');
+var owl2 = [
+  "Olive you!",
+  "Beets me!",
+  "Adore is between us. Open up!",
+  "Dozen anybody want to let me in?",
+  "Abby birthday to you!"
+];
 
-getInspired.addEventListener('click', appendQuote);
+var btnpress = document.querySelector('#btn');
+var firstJoke = document.querySelector('.joke1');
+var responseFirst = document.querySelector('.joke2');
+var finalJoke = document.querySelector('.jokeend');
 
-function appendQuote() {
-  var random = Math.floor(Math.random() * positive.length);
-  var quote = positive[random];
-  inspo.innerText = quote;
+btnpress.addEventListener('click', appendJoke);
+
+function appendJoke() {
+  var indexer = Math.floor(Math.random() * owl.length);
+  var joke = owl[indexer];
+  firstJoke.innerText = joke;
+  responseFirst.innerText = joke + " who?";
+  var joke2 = owl2[indexer];
+  finalJoke.innerText = joke2;
 }
